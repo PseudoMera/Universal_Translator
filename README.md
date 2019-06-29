@@ -17,5 +17,5 @@ nm = nanometer.
 
 ## Requirements  
 You need:  
-python >= 3.6+ 
+python >= 3.6+   
 pipenv  
