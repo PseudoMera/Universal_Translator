@@ -21,7 +21,7 @@ nm = nanometer.
 
 
 ## CRC card of the program    
-![alt text](github.com/PseudoMera/Universal_Translator/Diagrams/crcTranslator.png "crc diagram")  
+![alt text](Diagrams/crcTranslator.png "crc diagram")  
 
 
 
