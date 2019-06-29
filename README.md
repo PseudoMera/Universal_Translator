@@ -16,7 +16,7 @@ um = micrometer.
 nm = nanometer.  
 
 ## Class diagram of the program (UML)    
-![alt text](github.com/PseudoMera/Universal_Translator/Diagrams/ClassDiagram.png "Class Diagram")  
+![alt text](Diagrams/ClassDiagram.png "Class Diagram")  
 
 
 
