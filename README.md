@@ -4,7 +4,7 @@ Universal translator is a console application that allows you to convert any len
 Universal translator uses the same base unit as the metric system, which is the meter.
 
 ## File_Format
-You can find an example file in the following link describing how your file should be structured and an example file showing you how the result file will look.
+You can find an example file in the following link describing how your file should be structured and an example file showing you how the result file will look after the conversion. The file should have a .txt extension.
 
 https://docs.google.com/document/d/1Qej04jk0A76cDfdFx0lii8GvcliHd0Mm-D3XZW_J62M/edit?usp=sharing
 
@@ -16,4 +16,6 @@ um = micrometer.
 nm = nanometer.  
 
 ## Requirements  
-You need python 3.6+ to use this application.
+You need:  
+python >= 3.6+ 
+pipenv  
