@@ -15,10 +15,14 @@ mm = millimeter.
 um = micrometer.  
 nm = nanometer.  
 
-## Class diagram of the program (UML)  
+## Class diagram of the program (UML)    
+[CLASS DIAGRAM]: github.com/PseudoMera/Universal_Translator/Diagrams/ClassDiagram.png "Class Diagram"  
 
 
-## CRC card of the program  
+
+## CRC card of the program    
+[CRC]: github.com/PseudoMera/Universal_Translator/Diagrams/crcTranslator.png "crc diagram"  
+
 
 
 
