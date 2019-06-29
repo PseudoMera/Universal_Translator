@@ -15,6 +15,14 @@ mm = millimeter.
 um = micrometer.  
 nm = nanometer.  
 
+## Class diagram of the program (UML)  
+
+
+## CRC card of the program  
+
+
+
+
 ## Requirements  
 You need:  
 python >= 3.6+   
