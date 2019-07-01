@@ -33,16 +33,16 @@ class UnitsTranslator:
                     writer.writelines(text[0] + ', ' + text[1] + ', ' + text[2] + ', ' + str(res) + '\n')
         
 
+if __name__ == "__main__":
+    file_route = input('Enter your file route: ') 
+    trans = UnitsTranslator(file_route)
+    trans.read_file()
 
-file_route = input('Enter your file route: ') 
-trans = UnitsTranslator(file_route)
-trans.read_file()
 
+    file_elements = []
+    for line in trans.lines:
+        file_elements.append(line.replace('\n', '').replace(' ', '').split(','))
 
-file_elements = []
-for line in trans.lines:
-    file_elements.append(line.replace('\n', '').replace(' ', '').split(','))
-
-trans.write_to_file(file_elements)
+    trans.write_to_file(file_elements)
 
 
