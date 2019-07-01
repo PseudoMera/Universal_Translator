@@ -15,10 +15,14 @@ mm = millimeter.
 um = micrometer.  
 nm = nanometer.  
 
-## Class diagram of the program (UML)  
+## Class diagram of the program (UML)    
+![alt text](Diagrams/ClassDiagram.png "Class Diagram")  
 
 
-## CRC card of the program  
+
+## CRC card of the program    
+![alt text](Diagrams/crcTranslator.png "crc diagram")  
+
 
 
 
