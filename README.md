@@ -16,7 +16,7 @@ um = micrometer.
 nm = nanometer.  
 
 ## Class diagram of the program (UML)    
-![alt text](Diagrams/ClassDiagram.png "Class Diagram")  
+![alt text](Diagrams/classDiagram.png "Class Diagram")  
 
 
 
