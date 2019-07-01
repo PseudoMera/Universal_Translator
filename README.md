@@ -1,19 +1,35 @@
 # Universal_Translator
-Universal translator is a console application that allows you to convert any length unit under the metric system to another in the same system. Universal translator will requiere you to feed it a file (the format of this file is discribed below) with the units you want to convert.
+Universal translator is a console application that allows you to convert any length unit under the metric system to another in the same system. Universal translator will requiere you to feed it a file with the units you want to convert.
 
 Universal translator uses the same base unit as the metric system, which is the meter.
 
 ## File_Format
-You can find an example file in the following link describing how your file should be structured and an example file showing you how the result file will look after the conversion. The file should have a .txt extension.
+If you want to know how the file should be structured you should go to the file examples folder.  
+There you will find an example of the the file you should give the program (test.txt) and the result file after the convertion (result.txt)
 
-https://docs.google.com/document/d/1Qej04jk0A76cDfdFx0lii8GvcliHd0Mm-D3XZW_J62M/edit?usp=sharing
-
+v = value   
+fu = from unit  
+tu = to unit  
 km = kilimeters.  
 m = meters.  
 cm = centimeter.  
 mm = millimeter.  
 um = micrometer.  
 nm = nanometer.  
+
+## How to use it  
+Before we start make sure you have everything setup as per the requirements section. 
+
+Follow those steps:  
+
+1. Type python3 universal_translator.py into your console (you have to be on the same directory as the universal_translator.py file).   
+
+2. The program will ask you for your file route. If you already are on the same folder as your file you just have to type your file name + it's extension (.txt). If you are not on the same directory as your file you will have to type the full path. Example: /home/username/Documents/test.txt.  
+
+3. You will then be asked to introduce the name of the result file(this file will contain the results of the convertion), You should not put the extension, the program will set it to .txt by default.  
+
+4. A result file will be generated with the solution. This file will be on the same directory you ran universal_translator.py.  
+
 
 ## Class diagram of the program (UML)    
 ![alt text](Diagrams/classDiagram.png "Class Diagram")  
@@ -22,9 +38,6 @@ nm = nanometer.
 
 ## CRC card of the program    
 ![alt text](Diagrams/crcTranslator.png "crc diagram")  
-
-
-
 
 
 ## Requirements  
