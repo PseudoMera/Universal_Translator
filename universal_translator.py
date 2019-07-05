@@ -1,5 +1,5 @@
 class UnitsTranslator:
-    def __init__(self, file_route):
+    def __init__(self, file_route):    
         self.file_route = file_route
         self.lines = []
         self.length_units = {     
@@ -31,13 +31,11 @@ class UnitsTranslator:
                 else:
                     res = self.convert_unit(float(text[0]), text[1], text[2])
                     writer.writelines(text[0] + ', ' + text[1] + ', ' + text[2] + ', ' + str(res) + '\n')
-        
 
 if __name__ == "__main__":
-    file_route = input('Enter your file route: ') 
+    file_route = input('Enter your file route: ')
     trans = UnitsTranslator(file_route)
     trans.read_file()
-
 
     file_elements = []
     for line in trans.lines:
