@@ -22,7 +22,7 @@ To start using the universal translator, you have two options:
 
 1-Download this repository and have python 3.6 installed.
 
-2-(This only works with linux) Download the following folder, and go to the how to use it section:  
+2-(This only works with linux) Download the following folder: 
 https://drive.google.com/open?id=1wShMRjQE4aUyWympdPk5a3UbyMC3XVgI
 
 
