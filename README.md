@@ -17,10 +17,19 @@ mm = millimeter.
 um = micrometer.  
 nm = nanometer.  
 
-## How to use it  
-Before we start make sure you have everything setup as per the requirements section. 
+## Install
+To start using the universal translator, you have two options:  
 
-Follow those steps:  
+1-Download this repository and have python 3.6 installed. If you choose this option go to the how to use it section.  
+
+2-Download the following folder, and go to the how to use it section:  
+https://drive.google.com/open?id=1wShMRjQE4aUyWympdPk5a3UbyMC3XVgI
+
+
+## How to use it  
+Before we start make sure you have everything setup as per the requirements section.   
+
+If you decided to choose the first option, this is your guide to using the universal translator:   
 
 1. Type python3 universal_translator.py into your console (you have to be on the same directory as the universal_translator.py file).   
 
@@ -28,7 +37,15 @@ Follow those steps:
 
 3. You will then be asked to introduce the name of the result file(this file will contain the results of the convertion), You should not put the extension, the program will set it to .txt by default.  
 
-4. A result file will be generated with the solution. This file will be on the same directory you ran universal_translator.py.  
+4. A result file will be generated with the solution. This file will be on the same directory you ran universal_translator.py.    
+
+If you chose the second option, this is your guide:
+
+1. Download the dist folder in the given link (Install section).    
+
+2. Open your local dist folder and go to dist/universal_translator/. Here you will find an executable with the name universal_translator.   
+
+3. Run it and follow the same steps (2 and below) as the first option.
 
 
 ## Class diagram of the program (UML)    
@@ -43,4 +60,3 @@ Follow those steps:
 ## Requirements  
 You need:  
 python >= 3.6+   
-pipenv  
