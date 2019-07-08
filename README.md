@@ -22,7 +22,7 @@ To start using the universal translator, you have two options:
 
 1-Download this repository and have python 3.6 installed.
 
-2-Download the following folder, and go to the how to use it section:  
+2-(This only works with linux) Download the following folder, and go to the how to use it section:  
 https://drive.google.com/open?id=1wShMRjQE4aUyWympdPk5a3UbyMC3XVgI
 
 
@@ -39,7 +39,7 @@ If you decided to choose the first option, this is your guide to using the unive
 
 4. A result file will be generated with the solution. This file will be on the same directory you ran universal_translator.py.    
 
-If you chose the second option, this is your guide:
+If you chose the second option, this is your guide (only works with linux):
 
 1. Download the dist folder in the given link (Install section).    
 
